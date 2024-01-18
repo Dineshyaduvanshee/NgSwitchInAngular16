@@ -1,0 +1,23 @@
+<div style="text-align: center;">
+  <h1>!! Welcome to indicosmic pvt ltd !!</h1>
+  <!-- <div [ngSwitch]="name">
+    <div *ngSwitchCase="'Ram'">Hellow Ram</div>
+    <div *ngSwitchCase="'Dinesh'">Hellow Dinesh</div>
+    <div *ngSwitchCase="'Devesh'">Hello Devesh</div>
+    <div *ngSwitchCase="'Pawan'">Hello Pawan</div>
+    <div *ngSwitchDefault>No Case Matched</div>
+  </div> -->
+  Enter Your Name : <input type="text" placeholder="Enter Your Name" #txtname (keyup)="0">
+  <div [ngSwitch]="txtname.value">
+    <div *ngSwitchCase="'Ram'">Hello Ram</div>
+    <div *ngSwitchCase="'Krishna'">Hello Krishna</div>
+    <div *ngSwitchCase="'Radha'">Hello Radha</div>
+    <div *ngSwitchCase="'Seeta'">Hello Seeta</div>
+    <div *ngSwitchCase="'Dinesh'">Hello Dinesh</div>
+    <div *ngSwitchCase="'dinesh'">Hello dinesh</div>
+    <div *ngSwitchCase="'Dineshyaduvanshee'">Hello Dineshyaduvanshee</div>
+    <div *ngSwitchCase="'Dinesh Yadav'">Hello Dinesh Yadav</div>
+    <div *ngSwitchCase="'Dinesh Kumar Yadav'">Hello Dinesh Kumr Yadav</div>
+    <div *ngSwitchDefault>!!No Data Found!!</div>
+  </div>
+</div>
